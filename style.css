@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(224, 224, 224);
+    margin: 0px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 10px rgb(75, 75, 75);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(22, 22, 22);
+    margin: 0px;
+    padding: 0px 50px;
+    color: white;
+    height: 50px;
+}
+
+nav h1 {
+    font-weight: bold;
+}
+
+nav button {
+    height: 100%
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    gap: 30px
+}
+
+.menu a{
+    color: rgb(209, 209, 209);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.menu li {
+    height:100%;
+    color: white;
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 40px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    max-width: 900px;
+    margin: auto;
+    justify-content: center;
+    overflow-wrap: break-word;
+    background: white;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px grey;
+}
+
+
+article h2 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer img {
+    max-height: 20px;
+}
+
+.twitter {
+    border-radius: 15px;
+    box-shadow: 1px 1px 20px grey;
+}
+
+.records {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article iframe {
+    width: 100%;
+}
+
+.secondary {
+    color: grey;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    background: rgb(32, 32, 32);
+    color: grey;
+}
