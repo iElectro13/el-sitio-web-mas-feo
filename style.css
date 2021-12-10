@@ -129,3 +129,8 @@ footer {
     background: rgb(32, 32, 32);
     color: grey;
 }
+
+.music {
+    width: 80%;
+    margin: auto;
+}
